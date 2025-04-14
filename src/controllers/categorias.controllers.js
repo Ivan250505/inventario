@@ -7,12 +7,10 @@ const getCategorias = async (req, res)=>{
     }catch{
         console.error("Error 500");
     }
-   
-    /*res.json({"Categoria":"Electrodomesticos"})*/
 
 }   
 
 
 export const methodHTTP ={
-    getCategorias
+    getCategorias,
 }
