@@ -13,7 +13,6 @@ app.use(express.json());
 app.use(cors());
 /*routes */
 app.use("/api/categorias",categoriaRouter);
-app.use(express.json());
 
 /*hacemos dispobinle a mis erver app para toda la aplicación */
 export default app;
