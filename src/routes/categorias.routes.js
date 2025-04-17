@@ -4,7 +4,8 @@ import { methodHTTP as categoriaController } from "../controllers/categorias.con
 const  router = Router();
 
 /*get */
-router.get("/",categoriaController.getCategorias)
+router.get("/",categoriaController.getCategorias); /*read*/ 
+router.post("/",categoriaController.postCategorias);/*create */
 
 /*hacemos disponible el router en otda la app */
 export default router;
