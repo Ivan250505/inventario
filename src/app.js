@@ -10,8 +10,7 @@ const app=express();
 app.set("port",5000)
 /*Midleware */
 app.use(express.json());
-app.use(cors());
-/*routes */
+app.use(cors());/*routes */
 app.use("/api/categorias",categoriaRouter);
 
 /*hacemos dispobinle a mis erver app para toda la aplicación */
